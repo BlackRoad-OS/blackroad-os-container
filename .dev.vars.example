@@ -1,0 +1,22 @@
+# BlackRoad OS Container — local development secrets
+# Copy this file to .dev.vars (gitignored) and fill in real values.
+# In production, set these via: wrangler secret put <NAME>
+
+# Contributor access gate — required on all protected API routes
+BLACKROAD_API_KEY=your-contributor-api-key-here
+
+# OAuth 2.0 (GitHub) — create an OAuth App at https://github.com/settings/developers
+# Callback URL: http://localhost:8787/auth/callback
+OAUTH_CLIENT_ID=your-github-oauth-client-id
+OAUTH_CLIENT_SECRET=your-github-oauth-client-secret
+
+# JWT signing secret — must be at least 32 characters
+JWT_SECRET=change-me-to-a-long-random-string-32chars
+
+# Stripe — find in https://dashboard.stripe.com/webhooks and https://dashboard.stripe.com/apikeys
+STRIPE_WEBHOOK_SECRET=whsec_your-stripe-webhook-signing-secret
+STRIPE_SECRET_KEY=sk_test_your-stripe-secret-key
+
+# Vendor API keys — used by the /api/proxy/* gateway
+OPENAI_API_KEY=sk-your-openai-api-key
+ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key
