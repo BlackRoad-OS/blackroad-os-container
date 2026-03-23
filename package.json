@@ -20,7 +20,7 @@
 		"hono": "4.12.5"
 	},
 	"devDependencies": {
-		"eslint": "^10.0.3",
+		"eslint": "^10.1.0",
 		"prettier": "^3.7.4",
 		"typescript": "5.9.3",
 		"wrangler": "4.71.0"
