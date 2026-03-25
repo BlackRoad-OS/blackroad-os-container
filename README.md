@@ -1,78 +1,48 @@
-# Containers Starter
+<!-- BlackRoad SEO Enhanced -->
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/containers-template)
+# ulackroad os container
 
-![Containers Template Preview](https://imagedelivery.net/_yJ02hpOMj_EnGvsU2aygw/5aba1fb7-b937-46fd-fa67-138221082200/public)
+> Part of **[BlackRoad OS](https://blackroad.io)** — Sovereign Computing for Everyone
 
-<!-- dash-content-start -->
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-ff1d6c?style=for-the-badge)](https://blackroad.io)
+[![BlackRoad OS](https://img.shields.io/badge/Org-BlackRoad-OS-2979ff?style=for-the-badge)](https://github.com/BlackRoad-OS)
+[![License](https://img.shields.io/badge/License-Proprietary-f5a623?style=for-the-badge)](LICENSE)
 
-This is a [Container](https://developers.cloudflare.com/containers/) starter template.
+**ulackroad os container** is part of the **BlackRoad OS** ecosystem — a sovereign, distributed operating system built on edge computing, local AI, and mesh networking by **BlackRoad OS, Inc.**
 
-It demonstrates basic Container configuration, launching and routing to individual container, load balancing over multiple container, running basic hooks on container status changes.
+## About BlackRoad OS
 
-<!-- dash-content-end -->
+BlackRoad OS is a sovereign computing platform that runs AI locally on your own hardware. No cloud dependencies. No API keys. No surveillance. Built by [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc), a Delaware C-Corp founded in 2025.
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
+### Key Features
+- **Local AI** — Run LLMs on Raspberry Pi, Hailo-8, and commodity hardware
+- **Mesh Networking** — WireGuard VPN, NATS pub/sub, peer-to-peer communication
+- **Edge Computing** — 52 TOPS of AI acceleration across a Pi fleet
+- **Self-Hosted Everything** — Git, DNS, storage, CI/CD, chat — all sovereign
+- **Zero Cloud Dependencies** — Your data stays on your hardware
 
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/containers-template
-```
+### The BlackRoad Ecosystem
+| Organization | Focus |
+|---|---|
+| [BlackRoad OS](https://github.com/BlackRoad-OS) | Core platform and applications |
+| [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) | Corporate and enterprise |
+| [BlackRoad AI](https://github.com/BlackRoad-AI) | Artificial intelligence and ML |
+| [BlackRoad Hardware](https://github.com/BlackRoad-Hardware) | Edge hardware and IoT |
+| [BlackRoad Security](https://github.com/BlackRoad-Security) | Cybersecurity and auditing |
+| [BlackRoad Quantum](https://github.com/BlackRoad-Quantum) | Quantum computing research |
+| [BlackRoad Agents](https://github.com/BlackRoad-Agents) | Autonomous AI agents |
+| [BlackRoad Network](https://github.com/BlackRoad-Network) | Mesh and distributed networking |
+| [BlackRoad Education](https://github.com/BlackRoad-Education) | Learning and tutoring platforms |
+| [BlackRoad Labs](https://github.com/BlackRoad-Labs) | Research and experiments |
+| [BlackRoad Cloud](https://github.com/BlackRoad-Cloud) | Self-hosted cloud infrastructure |
+| [BlackRoad Forge](https://github.com/BlackRoad-Forge) | Developer tools and utilities |
 
-## Getting Started
-
-First, run:
-
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
-
-Then run the development server (using the package manager of your choice):
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:8787](http://localhost:8787) with your browser to see the result.
-
-You can start editing your Worker by modifying `src/index.ts` and you can start
-editing your Container by editing the content of `container_src`.
-
-## Deploying To Production
-
-| Command          | Action                                |
-| :--------------- | :------------------------------------ |
-| `npm run deploy` | Deploy your application to Cloudflare |
-
-## Learn More
-
-To learn more about Containers, take a look at the following resources:
-
-- [Container Documentation](https://developers.cloudflare.com/containers/) - learn about Containers
-- [Container Class](https://github.com/cloudflare/containers) - learn about the Container helper class
-
-Your feedback and contributions are welcome!
+### Links
+- **Website**: [blackroad.io](https://blackroad.io)
+- **Documentation**: [docs.blackroad.io](https://docs.blackroad.io)
+- **Chat**: [chat.blackroad.io](https://chat.blackroad.io)
+- **Search**: [search.blackroad.io](https://search.blackroad.io)
 
 ---
 
-## 📜 License & Copyright
 
-**Copyright © 2026 BlackRoad OS, Inc. All Rights Reserved.**
-
-**CEO:** Alexa Amundson | **PROPRIETARY AND CONFIDENTIAL**
-
-This software is NOT for commercial resale. Testing purposes only.
-
-### 🏢 Enterprise Scale:
-- 30,000 AI Agents
-- 30,000 Human Employees
-- CEO: Alexa Amundson
-
-**Contact:** blackroad.systems@gmail.com
-
-See [LICENSE](LICENSE) for complete terms.
