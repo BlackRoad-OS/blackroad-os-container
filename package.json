@@ -23,7 +23,7 @@
 		"eslint": "^10.0.3",
 		"prettier": "^3.7.4",
 		"typescript": "5.9.3",
-		"wrangler": "4.71.0"
+		"wrangler": "4.76.0"
 	},
 	"private": true,
 	"scripts": {
